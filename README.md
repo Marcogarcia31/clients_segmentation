@@ -1,4 +1,4 @@
-# Building sustainable cities
+# Clients segmentation
 
 ## Project overview
 
