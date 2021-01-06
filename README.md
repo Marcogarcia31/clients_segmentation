@@ -8,7 +8,7 @@
 
 
 
-* the defined clusters are quite **robust**, well **balanced** and **meaningful** in a business-sense  <p>&nbsp;
+* the defined clusters are **robust**, well **balanced** and **meaningful** in a business-sense  <p>&nbsp;
 
 
 ## Workflow summary
@@ -39,9 +39,9 @@
 
 * use command pip install -r requirements.txt to install the dependencies
 
-* the data is directly available [here](https://www.kaggle.com/olistbr/brazilian-ecommerce).  The csv files should be stored in a folder named Data to reproduce code in the cleaning notebook
+* the data is available [here](https://www.kaggle.com/olistbr/brazilian-ecommerce). The csv files should be stored in a folder named Data to reproduce code in the cleaning notebook
 
-* the cleaned data ready for exploration and modelling is available in the project repository under the name cleaned_data.csv and may be read directly by the modelling notebook
+* the cleaned data ready for modelling is available in the project repository under the name cleaned_data.csv and may be read directly by the modelling notebook after unzipping the Data file
 <p>&nbsp;</p>
 
 
@@ -51,11 +51,15 @@
 
 ## **Aggregating tables**
 
-* The database contains multiple tables.
-* We will aggregate each table when needed and merge ot with the table they communicate it.
+* The database contains multiple tables
+
+* We will aggregate each table when needed and merge ot with the table they communicate it
+
 * For each table we will create one feature that counts the number of occurrences for each key of the table
-* Numeric features of interest will be aggregated by mean.
-* Categorical features of interest will be aggregated by most common value, or one-hot-encoded if the number of labels is low, then aggregated as numeric features.
+
+* Numeric features of interest will be aggregated by mean
+
+* Categorical features of interest will be aggregated by most common value, or one-hot-encoded if the number of labels is low, then aggregated as numeric features
 
 
 
