@@ -450,12 +450,12 @@ Interesting to note that GMM fitted clusters are quite close to both KMeans and 
 
 * Though the model is robust accross time, **updating the model** may be useful 
 
-* Further research shall try to **add new features** either by **aggregation or transformation**, and also try other **estimators**
+* Further research shall try to **add new features** either by **aggregation or transformation**, and also try other **estimators**<p>&nbsp;</p>
 
 
 
 
-
+## The cleaning & exploration notebook is accessible [here](cleaning_exploration.ipynb) and the modelling notebook [here](modelling.ipynb). Both notebooks may be run immediately after **unzipping** the **Data** file.
 
 
 
