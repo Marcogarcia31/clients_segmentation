@@ -455,7 +455,7 @@ Interesting to note that GMM fitted clusters are quite close to both KMeans and 
 
 
 
-## The cleaning & exploration notebook is accessible [here](cleaning_exploration.ipynb) and the modelling notebook [here](modelling.ipynb). Both notebooks may be run immediately after **unzipping** the **Data** file.
+#### The cleaning & exploration notebook is accessible [here](cleaning_exploration.ipynb) and the modelling notebook [here](modelling.ipynb). Both notebooks may be run immediately after **unzipping** the **Data** file.
 
 
 
